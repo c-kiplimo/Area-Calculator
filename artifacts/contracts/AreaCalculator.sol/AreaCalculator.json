@@ -1,0 +1,84 @@
+{
+  "_format": "hh-sol-artifact-1",
+  "contractName": "AreaCalculator",
+  "sourceName": "contracts/AreaCalculator.sol",
+  "abi": [
+    {
+      "constant": true,
+      "inputs": [
+        {
+          "internalType": "uint256",
+          "name": "length",
+          "type": "uint256"
+        },
+        {
+          "internalType": "uint256",
+          "name": "width",
+          "type": "uint256"
+        }
+      ],
+      "name": "calculateRectangleArea",
+      "outputs": [
+        {
+          "internalType": "uint256",
+          "name": "",
+          "type": "uint256"
+        }
+      ],
+      "payable": false,
+      "stateMutability": "pure",
+      "type": "function"
+    },
+    {
+      "constant": true,
+      "inputs": [
+        {
+          "internalType": "uint256",
+          "name": "side",
+          "type": "uint256"
+        }
+      ],
+      "name": "calculateSquareArea",
+      "outputs": [
+        {
+          "internalType": "uint256",
+          "name": "",
+          "type": "uint256"
+        }
+      ],
+      "payable": false,
+      "stateMutability": "pure",
+      "type": "function"
+    },
+    {
+      "constant": true,
+      "inputs": [
+        {
+          "internalType": "uint256",
+          "name": "base",
+          "type": "uint256"
+        },
+        {
+          "internalType": "uint256",
+          "name": "height",
+          "type": "uint256"
+        }
+      ],
+      "name": "calculateTriangleArea",
+      "outputs": [
+        {
+          "internalType": "uint256",
+          "name": "",
+          "type": "uint256"
+        }
+      ],
+      "payable": false,
+      "stateMutability": "pure",
+      "type": "function"
+    }
+  ],
+  "bytecode": "0x608060405234801561001057600080fd5b5060f38061001f6000396000f3fe6080604052348015600f57600080fd5b5060043610603c5760003560e01c806312c0f982146041578063ab65aa3414606d578063bda1ea6714608d575b600080fd5b605b60048036036020811015605557600080fd5b503560ad565b60408051918252519081900360200190f35b605b60048036036040811015608157600080fd5b508035906020013560b2565b605b6004803603604081101560a157600080fd5b508035906020013560b6565b800290565b0290565b60029102049056fea265627a7a7231582069e2d12f14be0a3086fbb29eff1193fe22f27ed368e147524a2784e41b87c95964736f6c63430005100032",
+  "deployedBytecode": "0x6080604052348015600f57600080fd5b5060043610603c5760003560e01c806312c0f982146041578063ab65aa3414606d578063bda1ea6714608d575b600080fd5b605b60048036036020811015605557600080fd5b503560ad565b60408051918252519081900360200190f35b605b60048036036040811015608157600080fd5b508035906020013560b2565b605b6004803603604081101560a157600080fd5b508035906020013560b6565b800290565b0290565b60029102049056fea265627a7a7231582069e2d12f14be0a3086fbb29eff1193fe22f27ed368e147524a2784e41b87c95964736f6c63430005100032",
+  "linkReferences": {},
+  "deployedLinkReferences": {}
+}
