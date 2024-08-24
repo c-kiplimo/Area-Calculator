@@ -35,6 +35,41 @@
       "artifacts": [
         "AreaCalculator"
       ]
+    },
+    "/home/collins/Desktop/Web3bridge/Solidity/Week3Test1/AreaCalculator/contracts/Bank.sol": {
+      "lastModificationDate": 1724501970198,
+      "contentHash": "1de8796591a50a816d6b409a57791133",
+      "sourceName": "contracts/Bank.sol",
+      "solcConfig": {
+        "version": "0.5.16",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "^0.5.16"
+      ],
+      "artifacts": [
+        "Bank"
+      ]
     }
   }
 }
