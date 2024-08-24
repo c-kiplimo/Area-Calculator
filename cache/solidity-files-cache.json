@@ -70,6 +70,41 @@
       "artifacts": [
         "Bank"
       ]
+    },
+    "/home/collins/Desktop/Web3bridge/Solidity/Week3Test1/AreaCalculator/contracts/CrowdFunding.sol": {
+      "lastModificationDate": 1724518197010,
+      "contentHash": "8e87d688ccc49b01f8f68a1500964816",
+      "sourceName": "contracts/CrowdFunding.sol",
+      "solcConfig": {
+        "version": "0.5.16",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "^0.5.16"
+      ],
+      "artifacts": [
+        "Crowdfunding"
+      ]
     }
   }
 }
