@@ -14,7 +14,7 @@ module.exports = {
   networks: {
     sepolia: {
       url: `https://sepolia.infura.io/v3/1b418729725246bbaee99a2ac3ac2870`,
-      accounts: [`be4bafe7625171ffac5dcbe97499c921a0780225ed359175198cf6091ff2c644`] 
+      accounts: [``] 
     }
   }
 };
