@@ -19,6 +19,7 @@
     "hardhat": "^2.22.9"
   },
   "dependencies": {
+    "@openzeppelin/contracts": "^4.9.6",
     "glob": "^7.2.0",
     "solc": "^0.4.17"
   }

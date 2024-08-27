@@ -3,7 +3,7 @@
 require('@nomiclabs/hardhat-ethers')
 module.exports = {
   solidity: {
-    version: "0.5.16",
+    version: "0.8.1",
     settings: {
       optimizer: {
         enabled: true,
@@ -14,7 +14,7 @@ module.exports = {
   networks: {
     sepolia: {
       url: `https://sepolia.infura.io/v3/1b418729725246bbaee99a2ac3ac2870`,
-      accounts: [`account private key`] 
+      accounts: [`be4bafe7625171ffac5dcbe97499c921a0780225ed359175198cf6091ff2c644`] 
     }
   }
 };
